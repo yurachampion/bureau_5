@@ -82,23 +82,29 @@ body {
     display: flex;
     gap: 15px;
 }
-.icon {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
+.icon svg {
+    stroke: black; 
+    width: 28px;
+    height: 28px;
+    transition: stroke 0.3s ease;
 }
+
+.icon:hover svg {
+    stroke: gray;
+}
+
 .left-group {
     display: flex;
-    gap: 15px; /* Отступ между пунктами меню */
-    flex: 1; /* Занимает всё доступное место слева */
+    gap: 15px;
+    flex: 1; 
     padding-left: 30px;
 }
 
 .right-group {
     display: flex;
-    gap: 15px; /* Отступ между иконками */
-    flex: 1; /* Занимает всё доступное место справа */
-    justify-content: flex-end; /* Выравниваем иконки вправо */
+    gap: 24px; 
+    flex: 1; 
+    justify-content: flex-end; 
     padding-right: 30px;
 }
 
@@ -264,7 +270,6 @@ body {
 .logo-footer {
 margin: 0;
 font-size: 20px;
-font-family: ;
 font-weight: 500px;
 margin-bottom: 10px;
 padding-top: 10px;
