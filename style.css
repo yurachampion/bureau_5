@@ -174,3 +174,44 @@ body {
     font-weight: 500;
     margin-bottom: 7px;
 }
+
+.footer {
+    background: white;
+    width: 100%;
+}
+.footer-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.footer-left, {
+    max-width: 155px;
+    width: 100%;
+}
+.footer-center, {
+    max-width: 250px;
+    width: 100%;
+}
+.footer-right {
+    
+}
+.footer-right {
+    align-items: flex-end;
+}
+.footer a {
+    text-decoration: none;
+    color: #333;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
