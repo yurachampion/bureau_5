@@ -1,10 +1,31 @@
 @font-face {
-    font-family: 'CustomFont';
-    src: url('fonts/custom-font.woff2') format('woff2'),
-         url('fonts/custom-font.woff') format('woff');
-    font-weight: normal;
+    font-family: 'SF Pro Display';
+    src: url('fonts/sf-pro-display-regular.woff2') format('woff2');
+    font-weight: 400;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/sf-pro-display-medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('fonts/Vollkorn-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('fonts/Vollkorn-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
 
 body {
     margin: auto;
@@ -28,14 +49,16 @@ body {
 
 .nav {
     display: flex;
-    align-items: center;
+    justify-content: center; /* Центрируем элементы */
+    align-items: center; /* Выравниваем по вертикали */
+    gap: auto; /* Оставляет автоматический отступ между элементами */
     width: 100%;
 }
 
 .nav__menu {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
     padding: 0;
     margin: 0;
     font-size: 22px;
@@ -51,11 +74,9 @@ body {
 }
 .logo {
     font-size: 45px;
-    font-weight: 400;
-    position: absolute;
+    font-weight: 500;
     font-family: 'Vollkorn', serif;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
 }
 .nav__icons {
     display: flex;
@@ -68,15 +89,19 @@ body {
 }
 .left-group {
     display: flex;
-    gap: 15px;
-    margin-left: 30px;
+    gap: 15px; /* Отступ между пунктами меню */
+    flex: 1; /* Занимает всё доступное место слева */
+    padding-left: 30px;
 }
+
 .right-group {
     display: flex;
-    gap: 15px;
-    margin-left: auto;
-    margin-right: 30px;
+    gap: 15px; /* Отступ между иконками */
+    flex: 1; /* Занимает всё доступное место справа */
+    justify-content: flex-end; /* Выравниваем иконки вправо */
+    padding-right: 30px;
 }
+
 
 .hero {
     width: 100%;
