@@ -69,11 +69,11 @@ body {
 
 .header {
     background: white;
-    height: 65px;
+    max-height: 65px;
+    height: 100%;
     display: flex;
     width: 100%;
-    font-family: 'Vollkorn', serif;
-    font-weight: 400;
+    
 }
 
 
@@ -88,14 +88,11 @@ body {
 .nav__menu {
     list-style: none;
     display: flex;
-    gap: 10px;
     padding: 0;
     margin: 0;
     font-size: 22px;
 }
-.nav__menu li {
-    display: inline;
-}
+
 .nav__menu a {
     text-decoration: none;
     color: black;
@@ -160,30 +157,27 @@ body {
 .content {
     display: flex;
     gap: 30px; 
-    max-width: 1000px;
+    width: 100%;
     font-family: 'SF Pro Display', sans-serif;
 }
 
 .content-image {
-    width: 476px;
-    height: 650px;
+    
     object-fit: cover;
-    border-radius: 5px;
     margin-top: 40px; 
-    margin-left: 30px; 
 }
 
 .content-text {
-    max-width: 450px;
+    max-width: 400px;
+    width: 100%;
     margin-top: 90px;
-    
-   
+      
 }
 
 .content-title {
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     max-width: 400px;
     width: 100%;
     margin-top: 0;
@@ -215,16 +209,16 @@ body {
 
 .product-title {
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0 auto 18px auto;
     max-width: 400px;
     width: 100%;
+    line-height: 32px;
     
 }
 .product-text {
     font-size: 25px;
     font-weight: 500;
-    line-height: 30px;
     max-width: 630px;
     width: 100%;
     margin: 0 auto 0 auto;
