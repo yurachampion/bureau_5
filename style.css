@@ -33,6 +33,17 @@
     font-style: normal;
 }
 
+p, h1, h2 {
+    
+    all: initial;
+    
+  
+    all: inherit;
+    
+    
+    all: unset;
+  }
+
 
 body {
     margin: auto;
@@ -109,7 +120,7 @@ body {
 
 .right-group {
     display: flex;
-    gap: 30x; 
+    gap: 30px; 
     flex: 1; 
     justify-content: flex-end; 
     padding-right: 50px;
