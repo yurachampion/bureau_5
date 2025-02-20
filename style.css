@@ -14,6 +14,13 @@
 
 @font-face {
     font-family: 'Vollkorn';
+    src: url('fonts/sf-pro-display-bold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
     src: url('fonts/Vollkorn-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
@@ -121,62 +128,82 @@ body {
     
 }
 
+.content-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
 .content {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    background-color: #DDD8DC;
+    gap: 30px; 
+    max-width: 1000px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.content-image {
+    width: 476px;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 40px; 
+    margin-left: 30px; 
+}
+
+.content-text {
+    max-width: 450px;
+    margin-top: 90px;
+   
 }
 
 .content-title {
-    font-size: 50px;
-    max-width: 425px;
-    width: 100%;
-    text-align: center;
+    font-size: 36px;
     font-weight: 700;
-    margin-top: 66px;
-    margin-bottom: 0;
-    font-family: 'SF Pro Display', sans-serif;
-}
-.content-description {
-    max-width: 680px;
+    margin-bottom: 22px;
+    max-width: 400px;
     width: 100%;
+    margin-top: 0;
+    line-height: 40px;
+}
+
+.content-description {
     font-size: 25px;
     font-weight: 500;
     line-height: 30px;
-    margin-top: 45px;
-    font-family: 'SF Pro Display', sans-serif;
-
-}
-.content-image {
     
-    height: auto;
-    margin: 20px 247px 26px 247px;
 }
+
 .product-section {
     
-    width: 100%;
+    width: 100%;  
+}
+
+
+
+.product-intro {
     
+    font-family: 'SF Pro Display', sans-serif;
+    padding: 76px 0 40px;
+    text-align: center;
     
 }
 
-.product-intro {
-    margin: 50px 0 40px 0;
-    font-family: 'SF Pro Display', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.product-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 auto 18px auto;
+    max-width: 400px;
+    width: 100%;
     
 }
 .product-text {
-    text-align: center;
     font-size: 25px;
-    font-weight: 400;
-    width: 630px;
-    margin: 0;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: 630px;
+    width: 100%;
+    margin: 0 auto 0 auto;
 }
 .product-grid {
     display: flex;
@@ -190,7 +217,6 @@ body {
     font-weight: 500;
     max-width: 280px;
     width: 100%;
-    
     margin-bottom: 8px;
 }
 
@@ -199,17 +225,21 @@ body {
     
 }
 
-.product-item p {
-    margin-top: 0px;
+
+
+.product-name {
+    margin-top: 5px;
     font-family: 'SF Pro Display', sans-serif;
-    font-size: 13px;
-    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 600;
 }
 
-.product-title {
-    font-size: 13px;
-    font-weight: 500;
-    margin-bottom: 7px;
+.product-price {
+    margin-top: 0px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .footer {
