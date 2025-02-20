@@ -208,13 +208,13 @@ body {
 .product-intro {
     
     font-family: 'SF Pro Display', sans-serif;
-    padding: 60px 0 40px;
+    padding: 75px 0 40px;
     text-align: center;
     
 }
 
 .product-title {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
     margin: 0 auto 18px auto;
     max-width: 400px;
