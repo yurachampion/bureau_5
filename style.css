@@ -101,7 +101,7 @@ p,
     list-style: none;
     display: flex;
     padding: 0;
-    gap: 15px;
+    gap: 10px;
     margin: 0;
     font-size: 22px;
 }
@@ -160,7 +160,8 @@ p,
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 40px;
+    padding-top: 36px;
+    width: 100%;
 }
 
 .content {
@@ -171,19 +172,20 @@ p,
 
 .content-image {
     object-fit: cover;
-    margin-top: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
+
 }
 
 .content-text {
     max-width: 400px;
     width: 100%;
-    margin-top: 90px;
+    padding-top: 90px;
 }
 
 .content-title {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
-    margin: 0 0 20px;
     line-height: 40px;
 }
 
@@ -191,9 +193,15 @@ p,
     font-size: 25px;
     font-weight: 500;
     line-height: 30px;
-    margin-bottom: 40px;
+    padding-top: 14px;
 }
 
+.content-description-2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 40px;
+}
 .product-section {
     width: 100%;
     padding: 75px 0;
@@ -232,19 +240,17 @@ p,
     font-weight: 500;
     max-width: 280px;
     width: 100%;
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: left;
 }
 
 .product-item img {
     width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 5px;
+    
 }
 
 .product-name {
-    margin: 10px 0 5px;
     font-size: 15px;
     font-weight: 600;
 }
@@ -252,13 +258,14 @@ p,
 .product-price {
     font-size: 15px;
     font-weight: 400;
-    color: #555;
+    color: #00000;
+    line-height: 20px;
 }
 
 .footer {
     background: white;
     width: 100%;
-    padding: 40px 30px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
