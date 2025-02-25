@@ -204,12 +204,11 @@ font-family: 'SF Pro Display', sans-serif;
 }
 .product-section {
     width: 100%;
-    padding: 75px 0;
 }
 
 .product-intro {
     text-align: center;
-    padding-bottom: 40px;
+    padding-top: 75px;
 }
 
 .product-title {
@@ -268,7 +267,7 @@ font-family: 'SF Pro Display', sans-serif;
 
 .footer {
     width: 100%;
-    padding-top: 40px;
+    padding-top: 55px;
     
 }
 .footer-title {
@@ -283,6 +282,7 @@ font-family: 'SF Pro Display', sans-serif;
     align-items: center;
     font-size: 16px;
     line-height: 20px;
+    font-weight: 400;
     color: #000000;
     flex-wrap: wrap;
     gap: 40px;
@@ -298,18 +298,17 @@ font-family: 'SF Pro Display', sans-serif;
 .footer-center {
     max-width: 270px;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 37px;
     align-items: flex-start;
 }
 
 .footer-right {
-    padding-top: 40px;
+    padding-top: 35px;
     align-items: flex-end;
     margin-left: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 34px;
+    padding-right: 36px;
 }
-
 
 .footer a {
     text-decoration: none;
@@ -323,7 +322,7 @@ font-family: 'SF Pro Display', sans-serif;
 .logo-footer {
 margin: 0;
 font-size: 20px;
-font-weight: 500px;
+font-weight: 500;
 margin-bottom: 10px;
 padding-top: 10px;
 font-family: 'Vollkorn', serif;
