@@ -198,7 +198,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 36px;
+    padding-top: 42px;
     width: 100%;
 }
 
@@ -272,7 +272,7 @@ align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 26px;
-    padding-top: 50px;
+    padding-top: 43px;
 }
 
 .product-item {
